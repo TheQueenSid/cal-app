@@ -152,6 +152,7 @@ const Cal=()=>{
 
     return(
         <div>
+            <h1>Calculator</h1>
             <p>This is Cal {inputVal}</p>
             <p>{operationVal} {currentOper}</p>
             <CalWrapper allBtArr={allBtArr} operationArr={operationArr}/>
